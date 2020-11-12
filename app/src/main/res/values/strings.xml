@@ -1,4 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">BlueBox</string>
+    <string name="app_name" translatable="false">BlueBox</string>
     <string name="username">Username</string>
+    <string name="register_button">Register</string>
+
+    <string-array name="languges">
+        <item>English</item>
+        <item>Russian</item>
+    </string-array>
+
+    <string-array name="lang_codes">
+        <item>en</item>
+        <item>ru</item>
+    </string-array>
+
 </resources>

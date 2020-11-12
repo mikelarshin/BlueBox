@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="username">Имя аккаунта</string>
+    <string name="register_button">Регистрация</string>
+
+    <string-array name="languges">
+        <item>Английский</item>
+        <item>Русский</item>
+    </string-array>
+
+</resources>

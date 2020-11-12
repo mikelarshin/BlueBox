@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "26328998493",
+    "firebase_url": "https://blue-box-23c81.firebaseio.com",
+    "project_id": "blue-box-23c81",
+    "storage_bucket": "blue-box-23c81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26328998493:android:15810b58f5b41e39e723b4",
+        "android_client_info": {
+          "package_name": "com.quack.bluebox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26328998493-nibesnppebprc8m2gsr79fsfsmjb4g85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2ivOKeH6tI-Q5N2_YHaUAYR52o98EKms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26328998493-nibesnppebprc8m2gsr79fsfsmjb4g85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

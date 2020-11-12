@@ -1,6 +1,9 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-android-extensions'
+    // FireBase
+
 }
 
 android {
@@ -35,6 +38,8 @@ android {
 dependencies {
 
     def moxyVersion = "2.1.2"
+
+    // FireBase
 
     // Moxy
     implementation "com.github.moxy-community:moxy:$moxyVersion"
