@@ -9,5 +9,14 @@
         android:id="@+id/loginFragment"
         android:name="com.quack.bluebox.view.LoginFragment"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/from_register_to_main"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.quack.bluebox.view.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main"/>
 </navigation>

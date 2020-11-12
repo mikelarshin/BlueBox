@@ -2,8 +2,8 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-android-extensions'
-    // FireBase
-
+    id 'androidx.navigation.safeargs'
+    id 'kotlin-kapt'
 }
 
 android {
@@ -37,15 +37,14 @@ android {
 
 dependencies {
 
-    def moxyVersion = "2.1.2"
-
-    // FireBase
+    def moxyVersion = "2.1.1"
 
     // Moxy
     implementation "com.github.moxy-community:moxy:$moxyVersion"
-    implementation "com.github.moxy-community:moxy-android:$moxyVersion"
-    implementation "com.github.moxy-community:moxy-androidx:$moxyVersion"
-    implementation "com.github.moxy-community:moxy-ktx:$moxyVersion"
+    implementation "com.github.moxy-community:moxy-android:2.1.2"
+    implementation "com.github.moxy-community:moxy-androidx:2.1.2"
+    implementation "com.github.moxy-community:moxy-ktx:2.1.2"
+    kapt "com.github.moxy-community:moxy-compiler:$moxyVersion"
 
     // Navigation
     implementation 'androidx.navigation:navigation-fragment-ktx:2.3.1'

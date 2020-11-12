@@ -1,5 +1,4 @@
 package com.quack.bluebox.model
 
-fun sendUser(user: User) {
-
-}
+fun postUser(user: User) {} // TODO()
+fun isUserUnique(user: User): Boolean = true // TODO()

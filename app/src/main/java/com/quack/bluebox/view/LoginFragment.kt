@@ -2,6 +2,7 @@ package com.quack.bluebox.view
 
 import android.os.Build
 import androidx.annotation.RequiresApi
+import androidx.navigation.fragment.findNavController
 import com.quack.bluebox.R
 import com.quack.bluebox.presenter.LoginPresenter
 import com.quack.bluebox.presenter.LoginView
@@ -21,5 +22,14 @@ class LoginFragment : MvpFragmentX(R.layout.fragment_login), LoginView {
 
             presenter.pressRegister(langCode, layout.username.text.toString())
         }
+    }
+
+    override fun userNotUnique() {
+        TODO("Not yet implemented")
+    }
+
+    override fun finishRegister() {
+        val action = LoginFragmentDirections.fromRegisterToMain()
+        findNavController().navigate(action)
     }
 }
