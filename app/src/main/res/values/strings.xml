@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BlueBox</string>
+    <string name="username">Username</string>
 </resources>
