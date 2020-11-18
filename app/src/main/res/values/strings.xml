@@ -3,6 +3,7 @@
     <string name="app_name" translatable="false">BlueBox</string>
     <string name="username">Username</string>
     <string name="register_button">Register</string>
+    <string name="username_exists">This username already exists</string>
 
     <string-array name="languges">
         <item>English</item>

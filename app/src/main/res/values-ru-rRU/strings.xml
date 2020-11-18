@@ -7,5 +7,6 @@
         <item>Английский</item>
         <item>Русский</item>
     </string-array>
+    <string name="username_exists">Такое имя пользователя уже существует</string>
 
 </resources>
